@@ -6,4 +6,103 @@
     android:layout_height="match_parent"
     tools:context=".HomeWork3">
 
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_regular"
+        android:text="@string/download_random_image"
+        android:textSize="@dimen/subtitle_text_size"
+        app:layout_constraintLeft_toLeftOf="@id/verGuidelineStart"
+        app:layout_constraintRight_toRightOf="@id/verGuidelineEnd"
+        app:layout_constraintTop_toTopOf="@id/horGuidelineTop" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilImageURL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_regular"
+        android:hint="@string/enter_link"
+        app:endIconMode="clear_text"
+        app:layout_constraintLeft_toLeftOf="@id/verGuidelineStart"
+        app:layout_constraintRight_toRightOf="@id/verGuidelineEnd"
+        app:layout_constraintTop_toBottomOf="@+id/tvLabel">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etImageURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            android:maxLines="1"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLoadImage"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_regular"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/load_image"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="@id/verGuidelineStart"
+        app:layout_constraintRight_toRightOf="@id/verGuidelineEnd"
+        app:layout_constraintTop_toBottomOf="@+id/tilImageURL"
+        app:strokeColor="@color/red" />
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_regular"
+        android:contentDescription="@string/content_descriptor_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintBottom_toBottomOf="@+id/horGuidelineBottom"
+        app:layout_constraintLeft_toLeftOf="@id/verGuidelineStart"
+        app:layout_constraintRight_toRightOf="@id/verGuidelineEnd"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoadImage"
+        tools:ignore="ImageContrastCheck" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_regular"
+        android:contentDescription="@string/content_descriptor_image"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/horGuidelineBottom"
+        app:layout_constraintLeft_toLeftOf="@id/verGuidelineStart"
+        app:layout_constraintRight_toRightOf="@id/verGuidelineEnd"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoadImage" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verGuidelineStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verGuidelineEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horGuidelineTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horGuidelineBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

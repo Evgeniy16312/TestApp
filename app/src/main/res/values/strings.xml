@@ -4,4 +4,28 @@
     <string name="homework3">HomeWork3</string>
     <string name="homework4">HomeWork4</string>
     <string name="SelectHomeWork">Выбирите домашнее задание</string>
+    <string name="increment">increment</string>
+    <string name="random_color">random_color</string>
+    <string name="switch_visibility">switch_visibility</string>
+    <string name="number">0</string>
+    <string name="download_image">Download image</string>
+    <string name="link">link</string>
+    <string name="input_link">input_link</string>
+    <string name="load_image">load_image</string>
+    <string name="enter_link">enter_link</string>
+    <string name="download_random_image">download_random_image</string>
+    <string name="content_descriptor_image">content_descriptor_image</string>
+    <string name="invalid_url_error">invalid_url_error</string>
+    <string name="retry_error">retry_error</string>
+    <string name="retry_btn">retry_btn</string>
+    <string name="austria">austria</string>
+    <string name="columbia">columbia</string>
+    <string name="columbia">columbia</string>
+    <string name="italy">italy</string>
+    <string name="madagascar">madagascar</string>
+    <string name="poland">poland</string>
+    <string name="switzerland">switzerland</string>
+    <string name="thailand">thailand</string>
+
+
 </resources>
