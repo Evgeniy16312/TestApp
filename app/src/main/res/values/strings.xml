@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="homework2">HomeWork2</string>
+    <string name="homework3">HomeWork3</string>
+    <string name="homework4">HomeWork4</string>
+    <string name="SelectHomeWork">Выбирите домашнее задание</string>
+</resources>
