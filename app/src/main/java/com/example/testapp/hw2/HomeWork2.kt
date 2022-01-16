@@ -1,4 +1,4 @@
-package com.example.testapp
+package com.example.testapp.hw2
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,7 @@ import android.os.Parcel
 import android.os.Parcelable
 import android.view.View
 import androidx.core.content.ContextCompat
+import com.example.testapp.R
 import com.example.testapp.databinding.ActivityHomeWork2Binding
 
 import kotlin.random.Random

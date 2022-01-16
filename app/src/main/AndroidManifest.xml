@@ -12,13 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestApp">
         <activity
-            android:name=".HomeWork4"
+            android:name=".hw5.HomeWork5"
             android:exported="false" />
         <activity
-            android:name=".HomeWork3"
+            android:name=".hw4.HomeWork4"
             android:exported="false" />
         <activity
-            android:name=".HomeWork2"
+            android:name=".hw3.HomeWork3"
+            android:exported="false" />
+        <activity
+            android:name=".hw2.HomeWork2"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

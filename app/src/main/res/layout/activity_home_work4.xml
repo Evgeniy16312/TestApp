@@ -6,7 +6,7 @@
     android:layout_margin="4dp"
     android:orientation="vertical"
     android:scrollbars="none"
-    tools:context=".HomeWork4">
+    tools:context=".hw4.HomeWork4">
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -1,9 +1,8 @@
-package com.example.testapp
+package com.example.testapp.hw4
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.testapp.databinding.ActivityHomeWork4Binding
-import com.example.testapp.databinding.ActivityMainBinding
 
 class HomeWork4 : AppCompatActivity() {
 

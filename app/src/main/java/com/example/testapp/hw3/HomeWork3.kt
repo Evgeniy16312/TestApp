@@ -1,4 +1,4 @@
-package com.example.testapp
+package com.example.testapp.hw3
 
 import android.annotation.SuppressLint
 import android.graphics.BitmapFactory
@@ -7,6 +7,7 @@ import android.view.View
 import android.webkit.URLUtil
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.testapp.R
 import com.example.testapp.databinding.ActivityHomeWork3Binding
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.DelicateCoroutinesApi

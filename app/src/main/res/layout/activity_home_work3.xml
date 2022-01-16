@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeWork3">
+    tools:context=".hw3.HomeWork3">
 
     <TextView
         android:id="@+id/tvLabel"
